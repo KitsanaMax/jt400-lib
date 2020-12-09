@@ -11,9 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "node-jt400": "^4.0.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@babel/node": "^7.12.6"
   }
 }
