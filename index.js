@@ -1,18 +1,8 @@
-const config = {
-    host: '156.71.3.109',
-    user: 'HDMSUSER',
-    password: 'hdms112020',
-    'translate binary': 'true',
-    libraries: 'IDS2001D'
-}
+var java = require("java")
+java.classpath.push("commons-lang3-3.1.jar")
+java.classpath.push("commons-io.jar")
 
-const pool = require('node-jt400').pool(config);
-
-exports.handler = async (event) => {
-    // TODO implement
-    const response = {
-        statusCode: 200,
-        body: JSON.stringify('Hello from Lambda!'),
-    };
-    return response;
-};
+var list1 = java.newInstanceSync("java.util.ArrayList")
+console.log(list1.sizeSync());
+list1.addSync('item1');
+console.log(list1.sizeSync());

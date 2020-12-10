@@ -1,16 +1,23 @@
 {
-  "name": "jt400",
+  "name": "jt400test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KitsanaMax/jt400-lib.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KitsanaMax/jt400-lib/issues"
+  },
+  "homepage": "https://github.com/KitsanaMax/jt400-lib#readme",
   "dependencies": {
-    "java": "^0.12.1",
-    "node-jt400": "^4.0.1"
+    "java": "^0.12.1"
   }
 }
